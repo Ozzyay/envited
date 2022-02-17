@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Envited Technical Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What I couldn't accomplish in time:
+- Hooking up the full form functionality with redux, all the groundwork is there but I just ran out of time due to a silly CSS error I made early and didn't catch for far too long.
+- Event page isn't completely finished nor perfectly mirrored
+- The form looks aesthetically just awful
 
-## Available Scripts
 
-In the project directory, you can run:
+What I should have done better: 
+- Due to that aforementioned CSS bug, I ended up thinking I had issues with react-router so I ended up spending 45 minutes porting over to NextJS to use next router/searching for the bug before realising it was a silly z-index I set on the body for whatever reason earlier.
+- Styling from figma could have been more accurately displayed
+- I would have liked proper responsive design, right now its only designed to work on 375x813 resolution with fixed positioning for everything as given my Figma. With a couple more hours, I could have easily implemented proper form functionality and proper responsive design but thats a worry for another time.
 
-### `npm start`
+# HOSTED ON FIREBASE
+Build is based on 375x813 resolution (iphone X on chrome dev tools responsive mode)
+Hosting this on firebase didn't take up an exceptionally long time (5 minutes after realising I had hit the wall of what I could achieve at the 3hr45m mark)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://envited-fe93e.web.app/
+https://envited-fe93e.web.app/create (button is functional on home page)
+https://envited-fe93e.web.app/event (currently no way to access this without direct link)
