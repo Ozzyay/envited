@@ -16,7 +16,3 @@ Build is based on 375x813 resolution (iphone X on chrome dev tools responsive mo
 Hosting this on firebase didn't take up an exceptionally long time (5 minutes after realising I had hit the wall of what I could achieve at the 3hr45m mark)
 
 https://envited-fe93e.web.app/
-
-https://envited-fe93e.web.app/create (button is functional on home page)
-
-https://envited-fe93e.web.app/event (currently no way to access this without direct link)
