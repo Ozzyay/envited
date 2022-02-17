@@ -1,0 +1,159 @@
+.img {
+  position: absolute;
+  width: 375px;
+  height: 210px;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.container {
+  position: absolute;
+  width: 375px;
+  background: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  left: 20px;
+  top: 228px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  color: #501FC1;
+}
+
+.heading {
+  position: absolute;
+  width: 273px;
+  height: 82px;
+  left: 69px;
+  top: 219px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  color: #501FC1;
+}
+.host {
+  position: relative;
+  width: 166px;
+  height: 22px;
+  left: 69px;
+  top: 240px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(80, 31, 193, 0.3);
+}
+.buttonsContainer {
+  width: 61px;
+  height: 61px;
+}
+
+.going {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 20px;
+  top: 300px;
+}
+.maybe {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 127.5px;
+  top: 300px;
+}
+.notGoing {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 20px;
+  top: 300px;
+}
+.inviteButton {
+  position: absolute;
+  width: 255px;
+  height: 35px;
+  left: 24px;
+  top: 451px;
+  border: 0;
+  outline: 0;
+  background: #EFEFF4;
+  border-radius: 10px;
+  background-image: url('../../assets/inviteButton.png');
+  background-size: cover;
+}
+
+.settingsButton {
+  position: absolute;
+  width: 57px;
+  height: 35px;
+  left: 294px;
+  top: 451px;
+  border: 0;
+  border-radius: 10px;
+  background-image: url('../../assets/settingsButton.png');
+  background-size: cover;
+}
+
+.calendarIcon {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 20px;
+  top: 505px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+}
+
+.eventStart {
+  position: absolute;
+  left: 70px;
+  top: 505px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color:rgba(80, 31, 193, 1)
+}
+
+.eventEnd {
+  position: absolute;
+  width: 350px;
+  height: 22px;
+  left: 70px;
+  top: 536px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #501FC1;
+}
+
+.location {
+  position: absolute;
+  width: 350px;
+  height: 22px;
+  left: 70px;
+  top: 589px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #501FC1;
+}

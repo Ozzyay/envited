@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 1rem;
+}
+
+.cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.heading {
+  color: white;
+  line-height: 21px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button {
+  color: white;
+  background: linear-gradient(107.04deg, #C346D5 52.6%, #501FC1 118.32%);
+  border-radius: 100px;
+  border: 0px;
+  width: 73px;
+  height: 26px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+}
